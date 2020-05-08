@@ -1,11 +1,11 @@
 #!/bin/sh -e
 
-HOSTNAME="${HOSTNAME:-"amnesiac"}"
-INTERFACE="${EXT_IF:-"vtnet0"}"
+HOSTNAME="${HOSTNAME:-"brick"}"
+INTERFACE="${EXT_IF:-"emo0"}"
 PACKAGES="${PACKAGES:-"ca_root_nss sudo python"}"
 PUBLIC_KEY="${PUBLIC_KEY:-"https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub"}"
 SSH_USER="${SSH_USER:-"vagrant"}"
-ZPOOL_NAME="${ZPOOL_NAME:-"tank"}"
+ZPOOL_NAME="${ZPOOL_NAME:-"destroyer"}"
 
 # ZFS filesystems
 zfs create -o mountpoint=/home ${ZPOOL_NAME}/home
