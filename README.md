@@ -41,7 +41,6 @@ as bootable CD device.
          https://raw.githubusercontent.com/buoy49/freebsd-vagrant-base-box/master/update.sh \
          | sh | tee out.log
 
-        Note: You may use this short link instead: `http://bit.ly/1lEHtrx`.
 
 11. Halt the VM.
 
