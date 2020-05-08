@@ -38,7 +38,7 @@ as bootable CD device.
 
         dhclient vtnet0
         fetch -o - --no-verify-peer \
-         https://raw.githubusercontent.com/JoergFiedler/freebsd-vagrant-base-box/master/update.sh \
+         https://raw.githubusercontent.com/buoy49/freebsd-vagrant-base-box/master/update.sh \
          | sh | tee out.log
 
         Note: You may use this short link instead: `http://bit.ly/1lEHtrx`.
