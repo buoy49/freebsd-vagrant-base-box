@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 HOSTNAME="${HOSTNAME:-"brick"}"
-INTERFACE="${EXT_IF:-"emo0"}"
+INTERFACE="${EXT_IF:-"em0"}"
 PACKAGES="${PACKAGES:-"ca_root_nss sudo python"}"
 PUBLIC_KEY="${PUBLIC_KEY:-"https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub"}"
 SSH_USER="${SSH_USER:-"vagrant"}"
